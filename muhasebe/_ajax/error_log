@@ -1,0 +1,823 @@
+[29-Nov-2024 01:54:54 Europe/Istanbul] PHP Notice:  Undefined variable: type in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:54:54 Europe/Istanbul] SQL: INSERT INTO safes 
+                (u_id, title, type, balance, credit_limit, description, status, created_at) 
+                VALUES 
+                (:u_id, :title, :type, :balance, :credit_limit, :description, :status, :created_at)
+[29-Nov-2024 01:54:54 Europe/Istanbul] Data: Array
+(
+    [u_id] => 1
+    [title] => 'rr'
+    [type] => 'cash'
+    [balance] => 0.00
+    [credit_limit] => 0.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 01:54:54
+)
+
+[29-Nov-2024 01:54:58 Europe/Istanbul] PHP Notice:  Undefined variable: type in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:54:58 Europe/Istanbul] SQL: INSERT INTO safes 
+                (u_id, title, type, balance, credit_limit, description, status, created_at) 
+                VALUES 
+                (:u_id, :title, :type, :balance, :credit_limit, :description, :status, :created_at)
+[29-Nov-2024 01:54:58 Europe/Istanbul] Data: Array
+(
+    [u_id] => 1
+    [title] => 'a'
+    [type] => 'cash'
+    [balance] => 0.00
+    [credit_limit] => 0.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 01:54:58
+)
+
+[29-Nov-2024 01:55:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::prepare() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:56:25 Europe/Istanbul] PHP Notice:  Undefined variable: type in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:56:25 Europe/Istanbul] SQL: INSERT INTO safes 
+                (u_id, title, type, balance, credit_limit, description, status, created_at) 
+                VALUES 
+                (:u_id, :title, :type, :balance, :credit_limit, :description, :status, :created_at)
+[29-Nov-2024 01:56:25 Europe/Istanbul] Data: Array
+(
+    [u_id] => 1
+    [title] => 'wer'
+    [type] => 'cash'
+    [balance] => 0.00
+    [credit_limit] => 0.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 01:56:25
+)
+
+[29-Nov-2024 01:56:49 Europe/Istanbul] PHP Notice:  Undefined variable: type in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:56:49 Europe/Istanbul] SQL: INSERT INTO safes 
+                (u_id, title, type, balance, credit_limit, description, status, created_at) 
+                VALUES 
+                (:u_id, :title, :type, :balance, :credit_limit, :description, :status, :created_at)
+[29-Nov-2024 01:56:49 Europe/Istanbul] Data: Array
+(
+    [u_id] => 1
+    [title] => 'we'
+    [type] => 'cash'
+    [balance] => 0.00
+    [credit_limit] => 0.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 01:56:49
+)
+
+[29-Nov-2024 01:57:16 Europe/Istanbul] PHP Notice:  Undefined variable: type in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 13
+[29-Nov-2024 01:57:16 Europe/Istanbul] SQL: INSERT INTO safes 
+                (u_id, title, type, balance, credit_limit, description, status, created_at) 
+                VALUES 
+                (:u_id, :title, :type, :balance, :credit_limit, :description, :status, :created_at)
+[29-Nov-2024 01:57:16 Europe/Istanbul] Data: Array
+(
+    [u_id] => 1
+    [title] => 'e'
+    [type] => 'cash'
+    [balance] => 0.00
+    [credit_limit] => 0.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 01:57:16
+)
+
+[29-Nov-2024 02:36:05 Europe/Istanbul] POST verisi: Array
+(
+    [title] => w
+    [type] => credit_card
+    [credit_limit] => 80000
+    [description] => 
+    [frm] => frmAddSafe
+)
+
+[29-Nov-2024 02:36:05 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = '1',
+                title = 'w',
+                type = ''credit_card'',
+                balance = '0.00',
+                credit_limit = '0',
+                description = 'NULL',
+                status = '1',
+                created_at = '2024-11-29 02:36:05'
+[29-Nov-2024 02:37:40 Europe/Istanbul] POST verisi: Array
+(
+    [title] => d
+    [type] => credit_card
+    [credit_limit] => 80000
+    [description] => 
+    [frm] => frmAddSafe
+)
+
+[29-Nov-2024 02:37:40 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = '1',
+                title = 'd',
+                type = ''credit_card'',
+                balance = '0.00',
+                credit_limit = '0',
+                description = 'NULL',
+                status = '1',
+                created_at = '2024-11-29 02:37:40'
+[29-Nov-2024 02:39:02 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 's',
+                type = ''credit_card'',
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:39:02'
+[29-Nov-2024 02:39:50 Europe/Istanbul] POST credit_limit: 80000
+[29-Nov-2024 02:39:50 Europe/Istanbul] İşlenmiş credit_limit: 80000
+[29-Nov-2024 02:39:50 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 's',
+                type = 'credit_card',
+                balance = 0.00,
+                credit_limit = 80000,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:39:50'
+[29-Nov-2024 02:40:44 Europe/Istanbul] POST credit_limit: 
+[29-Nov-2024 02:40:44 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ziraat vadesiz',
+                type = 'credit_card',
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:40:44'
+[29-Nov-2024 02:41:18 Europe/Istanbul] POST credit_limit: 80000
+[29-Nov-2024 02:41:18 Europe/Istanbul] İşlenmiş credit_limit: 80000
+[29-Nov-2024 02:41:18 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ziraat gold',
+                type = 'credit_card',
+                balance = 0.00,
+                credit_limit = 80000,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:41:18'
+[29-Nov-2024 02:41:32 Europe/Istanbul] POST credit_limit: 
+[29-Nov-2024 02:41:32 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ziraat vadesiz',
+                type = 'credit_card',
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:41:32'
+[29-Nov-2024 02:41:54 Europe/Istanbul] POST credit_limit: 
+[29-Nov-2024 02:41:54 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'asd',
+                type = 'credit_card',
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:41:54'
+[29-Nov-2024 02:42:22 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'wer',
+                type = 'cash', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:42:22'
+[29-Nov-2024 02:42:29 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'wer',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 80000,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:42:29'
+[29-Nov-2024 02:42:46 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ziraat vadesiz',
+                type = 'bank_account', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:42:46'
+[29-Nov-2024 02:42:55 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'd',
+                type = 'cash', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = ''d'',
+                status = 1,
+                created_at = '2024-11-29 02:42:55'
+[29-Nov-2024 02:43:15 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 27
+[29-Nov-2024 02:43:15 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'sad',
+                type = 'cash', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 02:43:15'
+[29-Nov-2024 02:54:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::beginTransaction() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 8
+[29-Nov-2024 02:57:19 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::beginTransaction() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 8
+[29-Nov-2024 03:02:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::beginTransaction() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 8
+[29-Nov-2024 03:03:08 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[29-Nov-2024 03:03:37 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[29-Nov-2024 03:21:06 Europe/Istanbul] SQL Query: UPDATE finances SET 
+                       customer_id = 17,
+                       category_id = 34,
+                       method_id = 2,
+                       price = 1000.00,
+                       event_type = 0,
+                       description = 'NULL',
+                       adddate = '2024-11-29 03:21:06',
+                       is_recurring = 1,
+                       recurring_start_date = '1970-01-01',
+                       recurring_months = 0,
+                       recurring_count = 0
+                       WHERE id = 77
+[29-Nov-2024 03:55:45 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddIncome.php on line 13
+[29-Nov-2024 03:56:23 Europe/Istanbul] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PIA::control(), 1 passed in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddIncome.php on line 12 and at least 2 expected in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php:106
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddIncome.php(12): PIA::control('')
+#1 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 106
+[29-Nov-2024 22:14:00 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 27
+[29-Nov-2024 22:14:00 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ZİRAAT VADESİZ',
+                type = 'bank_account', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 22:14:00'
+[29-Nov-2024 22:14:39 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 27
+[29-Nov-2024 22:14:39 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ZİRAAT GOLD KREDİ KARTI',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 80000,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-29 22:14:39'
+[29-Nov-2024 22:16:41 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[29-Nov-2024 22:16:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[29-Nov-2024 22:22:31 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[29-Nov-2024 22:22:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[29-Nov-2024 22:30:21 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:30:21 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:30:28 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:30:28 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:34:48 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:34:48 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[29-Nov-2024 22:43:19 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 17
+[29-Nov-2024 22:43:19 Europe/Istanbul] SQL Query: UPDATE finances SET 
+                       customer_id = 19,
+                       category_id = 40,
+                       method_id = 0,
+                       price = 1400.00,
+                       event_type = 0,
+                       description = 'n',
+                       adddate = '2024-11-29 22:22:00',
+                       is_recurring = 0
+                       WHERE id = 92
+[29-Nov-2024 22:47:09 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[29-Nov-2024 22:47:09 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[29-Nov-2024 22:48:23 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[29-Nov-2024 22:48:23 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[29-Nov-2024 22:48:29 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[29-Nov-2024 22:48:29 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:35:43 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:35:43 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:36:25 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:36:25 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:41:52 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:41:52 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:41:58 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:41:58 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:42:12 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:42:12 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 64
+[30-Nov-2024 11:42:45 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:42:45 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 20
+[30-Nov-2024 11:47:27 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:47:27 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:49:42 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:49:42 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:50:02 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:50:02 Europe/Istanbul] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditExpense.php on line 77
+[30-Nov-2024 11:58:27 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[30-Nov-2024 11:58:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[30-Nov-2024 13:53:56 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[30-Nov-2024 13:53:56 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[30-Nov-2024 13:56:30 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[30-Nov-2024 13:56:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[30-Nov-2024 13:56:41 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[30-Nov-2024 13:56:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[30-Nov-2024 13:56:44 Europe/Istanbul] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, bool given in /home/u1934376/ersinemlak.com.tr/muhasebe/_class/class.php on line 39
+[30-Nov-2024 13:56:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::rollBack() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 99
+[30-Nov-2024 14:00:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::beginTransaction() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 24
+[30-Nov-2024 14:03:50 Europe/Istanbul] Payment ID: 3
+[30-Nov-2024 14:03:50 Europe/Istanbul] Action: process
+[30-Nov-2024 14:03:50 Europe/Istanbul] Payment found: stdClass Object
+(
+    [id] => 3
+    [u_id] => 1
+    [safe_id] => 55
+    [amount] => 100000.00
+    [due_date] => 2024-11-30 14:02:23
+    [description] => Yetersiz limit nedeniyle bekleyen ödeme
+    [status] => pending
+    [created_at] => 2024-11-30 14:02:39
+    [completed_at] => 
+    [category_id] => 
+    [customer_id] => 
+)
+
+[30-Nov-2024 14:03:50 Europe/Istanbul] Safe found: stdClass Object
+(
+    [id] => 55
+    [u_id] => 1
+    [title] => ZİRAAT GOLD KREDİ KARTI
+    [type] => credit_card
+    [balance] => 58000.00
+    [credit_limit] => 80000.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 22:14:39
+)
+
+[30-Nov-2024 14:03:50 Europe/Istanbul] Insert SQL: INSERT INTO finances 
+            (u_id, customer_id, category_id, safe_id, price, event_type, description, adddate) 
+            VALUES 
+            (1, , , 55, 
+             100000.00, 0, ''Yetersiz limit nedeniyle bekleyen ödeme'', NOW())
+[30-Nov-2024 14:03:50 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::errorInfo() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 89
+[30-Nov-2024 14:14:04 Europe/Istanbul] Payment ID: 4
+[30-Nov-2024 14:14:04 Europe/Istanbul] Action: process
+[30-Nov-2024 14:14:04 Europe/Istanbul] Payment Data: stdClass Object
+(
+    [id] => 4
+    [u_id] => 1
+    [safe_id] => 55
+    [amount] => 70000.00
+    [due_date] => 2024-11-30 14:07:52
+    [description] => Yetersiz limit nedeniyle bekleyen ödeme
+    [status] => pending
+    [created_at] => 2024-11-30 14:08:09
+    [completed_at] => 
+    [category_id] => 
+    [customer_id] => 
+)
+
+[30-Nov-2024 14:14:04 Europe/Istanbul] Safe Data: stdClass Object
+(
+    [id] => 55
+    [u_id] => 1
+    [title] => ZİRAAT GOLD KREDİ KARTI
+    [type] => credit_card
+    [balance] => 180000.00
+    [credit_limit] => 80000.00
+    [description] => NULL
+    [status] => 1
+    [created_at] => 2024-11-29 22:14:39
+)
+
+[30-Nov-2024 14:14:04 Europe/Istanbul] Insert SQL: INSERT INTO finances 
+                (u_id, customer_id, category_id, safe_id, price, event_type, description, adddate) 
+                VALUES 
+                (1, , , 55, 
+                70000.00, 0, ''Yetersiz limit nedeniyle bekleyen ödeme'', NOW())
+[30-Nov-2024 14:14:04 Europe/Istanbul] Insert Result: false
+[30-Nov-2024 14:14:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::errorInfo() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxProcessPendingPayment.php on line 73
+[30-Nov-2024 14:16:36 Europe/Istanbul] Failed SQL: INSERT INTO finances 
+                (u_id, customer_id, category_id, safe_id, price, event_type, adddate) 
+                VALUES 
+                (1, 
+                NULL, 
+                NULL, 
+                55, 
+                70000.00, 
+                0, 
+                NOW())
+[30-Nov-2024 14:17:54 Europe/Istanbul] Failed SQL: INSERT INTO finances SET 
+                u_id = 1,
+                customer_id = NULL,
+                category_id = NULL,
+                safe_id = 55,
+                price = 70000.00,
+                event_type = 0,
+                description = ''Yetersiz limit nedeniyle bekleyen ödeme'',
+                adddate = NOW(),
+                is_recurring = 0,
+                method_id = 0,
+                payment_source_type = NULL,
+                payment_source_id = NULL,
+                payment_status = 'completed',
+                transaction_id = NULL
+[30-Nov-2024 14:19:07 Europe/Istanbul] Failed SQL: INSERT INTO finances SET 
+                u_id = 1,
+                customer_id = NULL,
+                category_id = NULL,
+                safe_id = 55,
+                price = 70000.00,
+                event_type = 0,
+                description = '\'Yetersiz limit nedeniyle bekleyen ödeme\'',
+                adddate = NOW(),
+                is_recurring = 0,
+                method_id = 0,
+                payment_source_type = 'pending_payment',
+                payment_source_id = 4,
+                payment_status = 'completed'
+[30-Nov-2024 14:20:07 Europe/Istanbul] Failed SQL: INSERT INTO finances 
+                (u_id, customer_id, category_id, safe_id, price, event_type, description, adddate, 
+                is_recurring, method_id, payment_source_type, payment_source_id, payment_status) 
+                VALUES 
+                (1, NULL, NULL, 55, 70000.00, 0, 
+                'Bekleyen ödeme işlemi', NOW(), 0, 0, 'pending_payment', 4, 'completed')
+[30-Nov-2024 14:39:15 Europe/Istanbul] Pending Payment SQL: INSERT INTO pending_payments SET 
+                u_id = 1,
+                safe_id = 55,
+                amount = 100000,
+                customer_id = 18,
+                category_id = 34,
+                due_date = '2024-11-30 14:36:55',
+                description = ''wq'',
+                status = 'pending',
+                created_at = NOW()
+[30-Nov-2024 14:39:15 Europe/Istanbul] Pending Payment Insert Failed!
+[30-Nov-2024 14:39:17 Europe/Istanbul] Pending Payment SQL: INSERT INTO pending_payments SET 
+                u_id = 1,
+                safe_id = 55,
+                amount = 100000,
+                customer_id = 18,
+                category_id = 34,
+                due_date = '2024-11-30 14:36:55',
+                description = ''wq'',
+                status = 'pending',
+                created_at = NOW()
+[30-Nov-2024 14:39:17 Europe/Istanbul] Pending Payment Insert Failed!
+[30-Nov-2024 14:40:14 Europe/Istanbul] Pending Payment SQL: INSERT INTO pending_payments SET 
+                u_id = 1,
+                safe_id = 55,
+                amount = 100000,
+                customer_id = 18,
+                category_id = 34,
+                due_date = '2024-11-30 14:36:55',
+                description = ''wq'',
+                status = 'pending',
+                created_at = NOW()
+[30-Nov-2024 14:40:14 Europe/Istanbul] Pending Payment Insert Failed!
+[30-Nov-2024 14:41:04 Europe/Istanbul] Pending Payment SQL: INSERT INTO pending_payments 
+                (u_id, safe_id, amount, customer_id, category_id, due_date, description, status, created_at) 
+                VALUES 
+                (1, 
+                55, 
+                100000, 
+                18, 
+                34, 
+                '2024-11-30 14:36:55',
+                'wq',
+                'pending',
+                NOW())
+[30-Nov-2024 14:41:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::lastInsertId() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 70
+[30-Nov-2024 16:31:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function createPendingPayment() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 51
+[30-Nov-2024 16:32:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function createPendingPayment() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddExpense.php on line 40
+[30-Nov-2024 16:36:33 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[30-Nov-2024 16:58:43 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[30-Nov-2024 17:01:21 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[30-Nov-2024 17:01:27 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[30-Nov-2024 17:01:46 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[30-Nov-2024 17:20:12 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 27
+[30-Nov-2024 17:20:12 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 's',
+                type = 'cash', 
+                balance = 0.00,
+                credit_limit = 0,
+                description = 'NULL',
+                status = 1,
+                created_at = '2024-11-30 17:20:12'
+[02-Dec-2024 12:05:17 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 8
+[02-Dec-2024 12:05:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::update() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 10
+[02-Dec-2024 12:05:23 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 8
+[02-Dec-2024 12:05:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::update() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 10
+[02-Dec-2024 12:12:58 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 8
+[02-Dec-2024 12:12:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::update() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 10
+[02-Dec-2024 12:15:40 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 8
+[02-Dec-2024 12:15:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::update() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 10
+[02-Dec-2024 12:16:37 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'MAXİMUS',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 10000,
+                statement_day = 28,
+                due_day = 7,
+                bank_name = 'İŞBANK',
+                status = 1,
+                created_at = '2024-12-02 12:16:37'
+[02-Dec-2024 12:40:15 Europe/Istanbul] PHP Notice:  Undefined index: description in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 8
+[02-Dec-2024 12:40:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PIA::update() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditSafe.php on line 10
+[02-Dec-2024 12:51:21 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ET',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 505005,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'RFD',
+                status = 1,
+                created_at = '2024-12-02 12:51:21'
+[02-Dec-2024 12:54:11 Europe/Istanbul] POST verileri: Array
+(
+    [title] => ET
+    [type] => credit_card
+    [credit_limit] => 505005
+    [statement_day] => 12
+    [bank_name] => RFD
+    [due_day] => 2
+    [frm] => frmAddSafe
+)
+
+[02-Dec-2024 12:54:11 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ET',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 505005,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'RFD',
+                status = 1,
+                created_at = '2024-12-02 12:54:11'
+[02-Dec-2024 12:54:11 Europe/Istanbul] Query result: 
+[02-Dec-2024 12:54:11 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 57
+[02-Dec-2024 12:54:11 Europe/Istanbul] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 57
+[02-Dec-2024 12:54:11 Europe/Istanbul] MySQL Error: 
+[02-Dec-2024 12:54:11 Europe/Istanbul] PHP Notice:  Undefined property: PIA::$connection in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 58
+[02-Dec-2024 12:54:11 Europe/Istanbul] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxAddSafe.php on line 58
+[02-Dec-2024 13:26:37 Europe/Istanbul] POST verileri: Array
+(
+    [title] => ET
+    [type] => credit_card
+    [credit_limit] => 505005
+    [statement_day] => 12
+    [bank_name] => RFD
+    [due_day] => 2
+    [frm] => frmAddSafe
+)
+
+[02-Dec-2024 13:26:37 Europe/Istanbul] SQL sorgusu: INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ET',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 505005,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'RFD',
+                status = 1,
+                created_at = '2024-12-02 13:26:37'
+[02-Dec-2024 13:26:37 Europe/Istanbul] Query result: PDOStatement Object
+(
+    [queryString] => INSERT INTO safes SET 
+                u_id = 1,
+                title = 'ET',
+                type = 'credit_card', 
+                balance = 0.00,
+                credit_limit = 505005,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'RFD',
+                status = 1,
+                created_at = '2024-12-02 13:26:37'
+)
+
+[02-Dec-2024 13:34:33 Europe/Istanbul] SQL sorgusu: UPDATE safes SET 
+                title = 'MAXİMUS',
+                type = 'credit_card', 
+                credit_limit = 505005,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'İŞBANK'
+                WHERE id = 57 
+                AND u_id = 1
+[02-Dec-2024 13:34:46 Europe/Istanbul] SQL sorgusu: UPDATE safes SET 
+                title = 'MAXİMUS',
+                type = 'credit_card', 
+                credit_limit = 100000,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'İŞBANK'
+                WHERE id = 57 
+                AND u_id = 1
+[03-Dec-2024 12:59:44 Europe/Istanbul] SQL sorgusu: UPDATE safes SET 
+                title = 'MAXİMUS',
+                type = 'credit_card', 
+                credit_limit = 100000,
+                statement_day = 12,
+                due_day = 2,
+                bank_name = 'İŞBANK'
+                WHERE id = 57 
+                AND u_id = 1
+[03-Dec-2024 13:00:35 Europe/Istanbul] SQL sorgusu: UPDATE safes SET 
+                title = 'ZİRAAT GOLD KREDİ KARTI',
+                type = 'credit_card', 
+                credit_limit = 80000,
+                statement_day = 28,
+                due_day = 9,
+                bank_name = 'ZİRAAT BANK'
+                WHERE id = 55 
+                AND u_id = 1
+[03-Dec-2024 14:29:42 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 14:32:01 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 14:32:09 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 14:32:16 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 14:32:27 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 14:32:50 Europe/Istanbul] PHP Notice:  Undefined index: method_id in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxEditIncome.php on line 10
+[03-Dec-2024 15:15:16 Europe/Istanbul] AI Analysis Error: API error: The model `gpt-4` does not exist or you do not have access to it.
+[03-Dec-2024 15:16:19 Europe/Istanbul] AI Analysis Error: API error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+[03-Dec-2024 15:28:34 Europe/Istanbul] AI Analysis Error: The following `model_kwargs` are not used by the model: ['return_full_text'] (note: typos in the generate arguments will also show up in this list)
+[03-Dec-2024 15:28:49 Europe/Istanbul] AI Analysis Error: Model facebook/blenderbot-400M-distill is currently loading
+[03-Dec-2024 15:29:48 Europe/Istanbul] AI Analiz Hatası: The following `model_kwargs` are not used by the model: ['return_full_text'] (note: typos in the generate arguments will also show up in this list)
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 354
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 355
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 362
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 363
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_map(): Expected parameter 2 to be an array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 374
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 375
+[03-Dec-2024 15:38:13 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 376
+[03-Dec-2024 15:38:13 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:44:43 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 448
+[03-Dec-2024 15:44:43 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 475
+[03-Dec-2024 15:44:43 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:44:58 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:45:02 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:45:03 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:45:04 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 354
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 355
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 362
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 363
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_map(): Expected parameter 2 to be an array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 374
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 375
+[03-Dec-2024 15:46:36 Europe/Istanbul] PHP Warning:  array_column() expects parameter 1 to be array, object given in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 376
+[03-Dec-2024 15:46:37 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:47:13 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 448
+[03-Dec-2024 15:47:13 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 475
+[03-Dec-2024 15:47:13 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:56:24 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:56:43 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:57:11 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:59:20 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:59:25 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 15:59:34 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:02:11 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:02:32 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:02:50 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:03:04 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:03:19 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:03:53 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:03:58 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:07:40 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 21
+[03-Dec-2024 16:07:41 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 21
+[03-Dec-2024 16:07:42 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 21
+[03-Dec-2024 16:10:41 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:13:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method FinancialAI::generateGeneralAnalysis() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php:652
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(600): FinancialAI->generateAnalysis('general', NULL)
+#1 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(771): FinancialAI->generateResponse('genel analiz')
+#2 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 652
+[03-Dec-2024 16:13:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method FinancialAI::generateGeneralAnalysis() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php:652
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(600): FinancialAI->generateAnalysis('general', NULL)
+#1 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(771): FinancialAI->generateResponse('genel analiz')
+#2 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 652
+[03-Dec-2024 16:13:57 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method FinancialAI::generateCashFlowAnalysis() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php:644
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(600): FinancialAI->generateAnalysis('cash', NULL)
+#1 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(771): FinancialAI->generateResponse('nakit ak\xC4\xB1\xC5\x9F\xC4\xB1')
+#2 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 644
+[03-Dec-2024 16:13:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method FinancialAI::generateGeneralAnalysis() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php:652
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(600): FinancialAI->generateAnalysis('general', NULL)
+#1 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(771): FinancialAI->generateResponse('gelir analizi')
+#2 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 652
+[03-Dec-2024 16:14:50 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method FinancialAI::generateGeneralAnalysis() in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php:652
+Stack trace:
+#0 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(600): FinancialAI->generateAnalysis('general', NULL)
+#1 /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php(771): FinancialAI->generateResponse('merba')
+#2 {main}
+  thrown in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 652
+[03-Dec-2024 16:17:40 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting end of file in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 764
+[03-Dec-2024 16:17:41 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting end of file in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 764
+[03-Dec-2024 16:17:42 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting end of file in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 764
+[03-Dec-2024 16:17:43 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting end of file in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 764
+[03-Dec-2024 16:17:44 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting end of file in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 764
+[03-Dec-2024 16:20:07 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 655
+[03-Dec-2024 16:20:08 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 655
+[03-Dec-2024 16:23:57 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:23:59 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:18 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:19 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:20 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:20 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:23 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:24 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:24 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:24:28 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST) in /home/u1934376/ersinemlak.com.tr/muhasebe/_ajax/_ajaxChatbot.php on line 313
+[03-Dec-2024 16:38:48 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:38:50 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:38:54 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:38:57 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:16 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:18 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:20 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:29 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:31 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:41 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:45 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 16:39:58 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
+[03-Dec-2024 17:54:42 Europe/Istanbul] AI Analiz Hatası: Model Helsinki-NLP/opus-mt-en-tr does not exist
