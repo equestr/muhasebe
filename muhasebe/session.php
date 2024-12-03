@@ -1,1 +1,0 @@
-<?php if(!isset($admin->id)){ exit('<script>window.location.href="'.$pia->base_url().'";</script>');  } ?>
